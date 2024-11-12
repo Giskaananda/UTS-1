@@ -1,4 +1,4 @@
-/* Header Container */
+
 .header {
     display: flex;
     align-items: center;
@@ -7,7 +7,7 @@
     background-color: rgb(255, 174, 0);
   }
   
-  /* Logo Section */
+
   .headerlogo {
     display: flex;
     align-items: center;
@@ -23,9 +23,9 @@
     margin: 0;
   }
   
-  /* Navbar Links */
+
   .navbar {
-    display: flex; /* Show navbar by default on larger screens */
+    display: flex; 
     gap: 10px;
   }
   
@@ -41,21 +41,21 @@
     border-radius: 5px;
   }
   
-  /* Centered Text Styling */
+
   .tengah h1 {
     text-align: center;
     color: #fff;
   }
   
-  /* Responsive Styling for Tablets and Smaller Screens */
+ 
   @media (max-width: 768px) {
     .header {
-      flex-direction: column; /* Stack the header elements */
+      flex-direction: column;
       align-items: center;
       padding: 15px;
     }
     
-    /* Navbar styling for smaller screens */
+    
     .navbar {
       display: flex;
       flex-direction: column;
@@ -64,7 +64,7 @@
     }
   
     .headerlogo h1 {
-      font-size: 1.3rem; /* Slightly reduce logo text size */
+      font-size: 1.3rem; 
     }
   
     .navbar a {
@@ -75,7 +75,7 @@
     }
   }
   
-  /* Responsive Styling for Mobile Screens */
+ 
   @media (max-width: 480px) {
     .headerlogo h1 {
       font-size: 1.2rem;
@@ -87,8 +87,8 @@
     }
   
     .tengah h1 {
-      font-size: 1.3rem; /* Adjust centered text size on mobile */
-      padding: 0 10px; /* Add some padding for small screens */
+      font-size: 1.3rem; 
+      padding: 0 10px;
     }
   }
   
