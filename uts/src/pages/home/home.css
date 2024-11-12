@@ -1,0 +1,101 @@
+/* Heading for "Hubungi Kami" */
+.hubungi {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Center the Social Links Container */
+  .social-links-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Individual Social Link Styling */
+  .contact__social-link {
+    font-size: 2em;
+    color: #555;
+    margin: 0 15px; /* Adjust spacing between icons */
+    transition: color 0.3s;
+    display: inline-block; /* Keeps icons aligned in a single row */
+  }
+  
+  /* Icon Hover Effect */
+  .contact__social-link:hover {
+    color: rgb(255, 174, 0); /* Change color on hover */
+  }
+  
+  /* Address Section Styling */
+  h1 {
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 1em;
+    color: #666;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  /* Map Styling */
+  .map {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .map iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive styling for tablets and smaller screens */
+  @media (max-width: 768px) {
+    .hubungi {
+      font-size: 1.5em; /* Smaller heading */
+    }
+    .contact__social-link {
+      font-size: 1.8em; /* Adjust icon size */
+      margin: 0 10px;
+    }
+    h1 {
+      font-size: 1.4em;
+    }
+    p {
+      font-size: 0.95em;
+    }
+    .map iframe {
+      height: 350px; /* Reduce map height */
+    }
+  }
+  
+  /* Responsive styling for mobile screens */
+  @media (max-width: 480px) {
+    .hubungi {
+      font-size: 1.3em;
+      margin-top: 15px;
+    }
+    .contact__social-link {
+      font-size: 1.5em;
+      margin: 0 8px;
+    }
+    h1 {
+      font-size: 1.2em;
+    }
+    p {
+      font-size: 0.9em;
+      margin: 8px 0;
+    }
+    .map iframe {
+      height: 300px; /* Further reduce map height for mobile */
+    }
+  }
+  

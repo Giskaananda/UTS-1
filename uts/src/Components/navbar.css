@@ -1,0 +1,57 @@
+/* Navbar Container */
+nav {
+    background-color: rgb(255, 174, 0);
+    padding: 10px 20px;
+  }
+  
+  /* Navbar List */
+  .navbar__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar Item Links */
+  .navbar__item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar__item a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  /* Responsive Styling for Tablets and Smaller Screens */
+  @media (max-width: 768px) {
+    /* Navbar switches to vertical layout */
+    .navbar__list {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      width: 100%;
+    }
+    
+    .navbar__item a {
+      width: 100%; /* Full-width links */
+      text-align: left;
+      padding: 10px;
+      font-size: 1.1rem;
+    }
+  }
+  
+  /* Responsive Styling for Mobile Screens */
+  @media (max-width: 480px) {
+    .navbar__item a {
+      font-size: 1rem;
+      padding: 8px;
+    }
+  }
+  

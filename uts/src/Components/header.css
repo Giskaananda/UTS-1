@@ -1,0 +1,94 @@
+/* Header Container */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(255, 174, 0);
+  }
+  
+  /* Logo Section */
+  .headerlogo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .headerlogo img {
+    margin-right: 10px;
+  }
+  
+  .headerlogo h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  /* Navbar Links */
+  .navbar {
+    display: flex; /* Show navbar by default on larger screens */
+    gap: 10px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 12px;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  /* Centered Text Styling */
+  .tengah h1 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Responsive Styling for Tablets and Smaller Screens */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column; /* Stack the header elements */
+      align-items: center;
+      padding: 15px;
+    }
+    
+    /* Navbar styling for smaller screens */
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .headerlogo h1 {
+      font-size: 1.3rem; /* Slightly reduce logo text size */
+    }
+  
+    .navbar a {
+      padding: 10px;
+      font-size: 1.1rem;
+      text-align: left;
+      width: 100%;
+    }
+  }
+  
+  /* Responsive Styling for Mobile Screens */
+  @media (max-width: 480px) {
+    .headerlogo h1 {
+      font-size: 1.2rem;
+    }
+  
+    .navbar a {
+      font-size: 1rem;
+      padding: 8px;
+    }
+  
+    .tengah h1 {
+      font-size: 1.3rem; /* Adjust centered text size on mobile */
+      padding: 0 10px; /* Add some padding for small screens */
+    }
+  }
+  

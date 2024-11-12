@@ -1,0 +1,32 @@
+/* Footer Container */
+.kaki {
+    background-color: rgb(255, 174, 0); /* Match the header color */
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer Text */
+  .kaki p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  /* Responsive Styling for Smaller Screens */
+  @media (max-width: 768px) {
+    .kaki {
+      padding: 10px;
+      font-size: 0.9rem; /* Slightly smaller text */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .kaki {
+      padding: 8px;
+      font-size: 0.8rem; /* Further reduced font size for mobile */
+    }
+  }
+  

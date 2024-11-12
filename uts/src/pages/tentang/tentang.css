@@ -1,0 +1,59 @@
+/* Main container styling for desktop and larger screens */
+.tt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  .tt h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Paragraph styling */
+  .tt p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+    margin: 0 20px;
+  }
+  
+  /* Responsive styling for tablets and smaller screens */
+  @media (max-width: 768px) {
+    .tt {
+      padding: 20px; /* Reduce padding */
+      max-width: 90%; /* Make the container width adapt */
+    }
+    .tt h1 {
+      font-size: 1.8em; /* Slightly smaller heading */
+    }
+    .tt p {
+      font-size: 1em; /* Adjust font size for readability */
+    }
+  }
+  
+  /* Responsive styling for mobile screens */
+  @media (max-width: 480px) {
+    .tt {
+      padding: 15px; /* Further reduce padding on mobile */
+    }
+    .tt h1 {
+      font-size: 1.6em; /* Smaller heading on mobile */
+    }
+    .tt p {
+      font-size: 0.95em; /* Smaller text size */
+      margin: 0 10px; /* Narrow margins for mobile */
+    }
+  }
+  
