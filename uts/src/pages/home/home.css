@@ -1,4 +1,4 @@
-/* Heading for "Hubungi Kami" */
+
 .hubungi {
     font-size: 1.8em;
     margin-top: 20px;
@@ -6,27 +6,27 @@
     text-align: center;
   }
   
-  /* Center the Social Links Container */
+ 
   .social-links-container {
     text-align: center;
     margin-top: 10px;
   }
   
-  /* Individual Social Link Styling */
+
   .contact__social-link {
     font-size: 2em;
     color: #555;
-    margin: 0 15px; /* Adjust spacing between icons */
+    margin: 0 15px; 
     transition: color 0.3s;
-    display: inline-block; /* Keeps icons aligned in a single row */
+    display: inline-block; 
   }
   
-  /* Icon Hover Effect */
+
   .contact__social-link:hover {
-    color: rgb(255, 174, 0); /* Change color on hover */
+    color: rgb(255, 174, 0); 
   }
   
-  /* Address Section Styling */
+ 
   h1 {
     font-size: 1.5em;
     color: #333;
@@ -41,7 +41,7 @@
     margin: 10px 0;
   }
   
-  /* Map Styling */
+ 
   .map {
     display: flex;
     justify-content: center;
@@ -57,13 +57,13 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   }
   
-  /* Responsive styling for tablets and smaller screens */
+ 
   @media (max-width: 768px) {
     .hubungi {
-      font-size: 1.5em; /* Smaller heading */
+      font-size: 1.5em; 
     }
     .contact__social-link {
-      font-size: 1.8em; /* Adjust icon size */
+      font-size: 1.8em; 
       margin: 0 10px;
     }
     h1 {
@@ -73,11 +73,11 @@
       font-size: 0.95em;
     }
     .map iframe {
-      height: 350px; /* Reduce map height */
+      height: 350px; 
     }
   }
   
-  /* Responsive styling for mobile screens */
+ 
   @media (max-width: 480px) {
     .hubungi {
       font-size: 1.3em;
@@ -95,7 +95,7 @@
       margin: 8px 0;
     }
     .map iframe {
-      height: 300px; /* Further reduce map height for mobile */
+      height: 300px; 
     }
   }
   
