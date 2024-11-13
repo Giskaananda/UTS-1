@@ -4,8 +4,8 @@ import './navbar.css'
 
 const navbar = () => {
     const navList = [
-        {title: "Home", Path: "/"},
-        {title: "Tentang", Path: "/Tentang"},
+        {title: "Home", path: "/"},
+        {title: "Tentang", path: "/Tentang"},
     ];
 return (
     <div>
