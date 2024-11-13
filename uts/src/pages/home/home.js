@@ -11,7 +11,7 @@ const Home = () => {
         <h1 className="hubungi">Hubungi kami di:</h1>
         <div className="social-links-container">
           <a
-            href="https://www.instagram.com/farhan_al_habsyi/"
+            href="https://www.instagram.com/tc_parfume/"
             className="contact__social-link"
           >
             <FaInstagram />
