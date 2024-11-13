@@ -1,3 +1,8 @@
-.bg{
-    background-image: url('./Components/Assets/bekgrond.jpg');
+
+.bg {
+  background-image: url('./Components/Assets/bekgrond.jpg');
+  background-attachment: scroll;
+  background-size: cover; 
+  background-position: center; 
+  min-height: 100vh; 
 }
